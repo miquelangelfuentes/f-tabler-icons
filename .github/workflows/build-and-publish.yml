@@ -1,4 +1,4 @@
-name: Generar i publicar les 600 icones Tabler
+name: Generar i publicar les 800 icones Tabler
 on:
   push:
     branches: [main]
@@ -40,7 +40,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: Generar SVG i PNG circulars
         run: python scripts/build.py
-      - name: Validar els 2400 fitxers
+      - name: Validar els 3200 fitxers
         run: python scripts/validate.py
       - name: Desar la biblioteca generada a GitHub
         if: github.ref == 'refs/heads/main'
