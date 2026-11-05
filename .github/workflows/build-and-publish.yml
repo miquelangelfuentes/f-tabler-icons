@@ -9,6 +9,8 @@ on:
       - "package.json"
       - "requirements.txt"
       - "docs/index.html"
+      - "docs/catalog.js"
+      - "docs/data/topics.json"
       - ".github/workflows/build-and-publish.yml"
   workflow_dispatch:
 permissions:

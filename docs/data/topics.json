@@ -1,0 +1,457 @@
+{
+  "aprenentatge": [
+    {
+      "id": "lectura",
+      "label": "Llibres i lectura",
+      "prefixes": [
+        "book",
+        "books",
+        "bookmark",
+        "library",
+        "notebook"
+      ],
+      "exact": [
+        "bookmarks"
+      ],
+      "keywords": "lectura llegir biblioteques llibres"
+    },
+    {
+      "id": "escriptura",
+      "label": "Escriptura i materials",
+      "prefixes": [
+        "pencil",
+        "writing",
+        "notes",
+        "clipboard",
+        "ruler",
+        "text",
+        "keyboard",
+        "note"
+      ],
+      "exact": [],
+      "keywords": "escriure paper llapis materials apunts"
+    },
+    {
+      "id": "aula",
+      "label": "Aula i formació",
+      "prefixes": [
+        "school",
+        "chalkboard",
+        "presentation",
+        "certificate",
+        "award",
+        "calculator",
+        "abc",
+        "math",
+        "abacus",
+        "atom",
+        "geometry",
+        "microscope",
+        "telescope",
+        "flask",
+        "dna",
+        "puzzle",
+        "script",
+        "square-root",
+        "equal",
+        "sum",
+        "brain",
+        "backpack",
+        "briefcase",
+        "compass",
+        "graph",
+        "list",
+        "shape",
+        "spiral",
+        "infinity"
+      ],
+      "exact": [],
+      "keywords": "escola formacio classe ensenyament aprenentatge"
+    },
+    {
+      "id": "documents",
+      "label": "Documents educatius",
+      "prefixes": [
+        "file",
+        "article"
+      ],
+      "exact": [],
+      "keywords": "fitxes activitats documents"
+    }
+  ],
+  "ia-tecnologia": [
+    {
+      "id": "ia",
+      "label": "IA i automatització",
+      "prefixes": [
+        "ai",
+        "robot",
+        "brain",
+        "sparkles",
+        "bulb",
+        "automation"
+      ],
+      "exact": [],
+      "keywords": "intel·ligencia artificial generativa automatitzacio indicacions"
+    },
+    {
+      "id": "programacio",
+      "label": "Programació i web",
+      "prefixes": [
+        "code",
+        "html",
+        "terminal",
+        "browser",
+        "app",
+        "window",
+        "api",
+        "git",
+        "webhook",
+        "function"
+      ],
+      "exact": [],
+      "keywords": "codi programar html pagina web aplicacions"
+    },
+    {
+      "id": "infraestructura",
+      "label": "Dispositius i xarxes",
+      "prefixes": [
+        "device",
+        "devices",
+        "cpu",
+        "chip",
+        "cloud",
+        "server",
+        "network",
+        "wifi",
+        "database",
+        "binary",
+        "circuit"
+      ],
+      "exact": [],
+      "keywords": "ordinador dispositius dades servidors connexio"
+    }
+  ],
+  "multimedia": [
+    {
+      "id": "imatges",
+      "label": "Imatges i fotografia",
+      "prefixes": [
+        "photo",
+        "camera",
+        "image",
+        "scan",
+        "device-camera"
+      ],
+      "exact": [],
+      "keywords": "imatge foto fotografia camera visual dibuix"
+    },
+    {
+      "id": "video",
+      "label": "Vídeo i pantalla",
+      "prefixes": [
+        "video",
+        "movie",
+        "player",
+        "screen",
+        "crop",
+        "picture-in-picture"
+      ],
+      "exact": [],
+      "keywords": "video reproductor pantalla pelicula"
+    },
+    {
+      "id": "audio",
+      "label": "Veu i música",
+      "prefixes": [
+        "music",
+        "microphone",
+        "headphones",
+        "volume",
+        "waveform",
+        "audio",
+        "speaker",
+        "speakerphone",
+        "wave",
+        "record"
+      ],
+      "exact": [],
+      "keywords": "veu so musica audio micros enregistrament"
+    },
+    {
+      "id": "disseny",
+      "label": "Disseny i edició",
+      "prefixes": [
+        "palette",
+        "brush",
+        "paint",
+        "filter",
+        "art",
+        "color"
+      ],
+      "exact": [],
+      "keywords": "disseny color editar imatges"
+    }
+  ],
+  "comunicacio": [
+    {
+      "id": "converses",
+      "label": "Missatges i conversa",
+      "prefixes": [
+        "message",
+        "messages",
+        "bubble",
+        "quote",
+        "speech",
+        "question-mark"
+      ],
+      "exact": [],
+      "keywords": "missatge comunicar conversa xat preguntes"
+    },
+    {
+      "id": "persones",
+      "label": "Persones i equips",
+      "prefixes": [
+        "user",
+        "users",
+        "social",
+        "team",
+        "handshake",
+        "heart-handshake"
+      ],
+      "exact": [],
+      "keywords": "equips persones col·laboracio grup"
+    },
+    {
+      "id": "avisos",
+      "label": "Correu i notificacions",
+      "prefixes": [
+        "mail",
+        "send",
+        "inbox",
+        "outbox",
+        "bell",
+        "notification",
+        "at",
+        "phone",
+        "share"
+      ],
+      "exact": [],
+      "keywords": "correu notificacions avisos telefon comunicacio"
+    }
+  ],
+  "avaluacio": [
+    {
+      "id": "seguiment",
+      "label": "Validació i seguiment",
+      "prefixes": [
+        "check",
+        "checks",
+        "checklist",
+        "circle-check",
+        "circle-x",
+        "progress",
+        "target",
+        "award",
+        "trophy",
+        "focus",
+        "list-check",
+        "file-check",
+        "clipboard-check",
+        "star"
+      ],
+      "exact": [],
+      "keywords": "avaluacio validar encert comprovar seguiment resultat"
+    },
+    {
+      "id": "proteccio",
+      "label": "Seguretat i privacitat",
+      "prefixes": [
+        "shield",
+        "lock",
+        "key",
+        "eye"
+      ],
+      "exact": [],
+      "keywords": "proteccio seguretat privacitat"
+    },
+    {
+      "id": "analisi",
+      "label": "Anàlisi i revisió",
+      "prefixes": [
+        "chart",
+        "report",
+        "search",
+        "zoom",
+        "activity",
+        "adjustments",
+        "scan",
+        "filter",
+        "alert",
+        "exclamation",
+        "test"
+      ],
+      "exact": [],
+      "keywords": "analisi dades verificacio revisar"
+    }
+  ],
+  "organitzacio": [
+    {
+      "id": "documents",
+      "label": "Documents i carpetes",
+      "prefixes": [
+        "folder",
+        "file",
+        "files",
+        "archive",
+        "bookmark"
+      ],
+      "exact": [],
+      "keywords": "arxiu document carpeta"
+    },
+    {
+      "id": "temps",
+      "label": "Planificació i temps",
+      "prefixes": [
+        "calendar",
+        "clock",
+        "timeline",
+        "route",
+        "map"
+      ],
+      "exact": [],
+      "keywords": "temps organitzacio calendari agenda"
+    },
+    {
+      "id": "estructura",
+      "label": "Estructures i interfícies",
+      "prefixes": [
+        "layout",
+        "dashboard",
+        "grid",
+        "table",
+        "stack",
+        "box",
+        "hierarchy",
+        "sitemap",
+        "building",
+        "home",
+        "list",
+        "template"
+      ],
+      "exact": [],
+      "keywords": "estructura distribucio interfície taula"
+    },
+    {
+      "id": "eines",
+      "label": "Configuració i eines",
+      "prefixes": [
+        "settings",
+        "tools",
+        "adjustments"
+      ],
+      "exact": [],
+      "keywords": "configuracio eines preferencies"
+    }
+  ],
+  "accions": [
+    {
+      "id": "navegacio",
+      "label": "Direccions i navegació",
+      "prefixes": [
+        "arrow",
+        "arrows",
+        "chevron",
+        "external",
+        "link",
+        "menu"
+      ],
+      "exact": [],
+      "keywords": "navegacio fletxes enllaços rutes"
+    },
+    {
+      "id": "gestio",
+      "label": "Edició i gestió",
+      "prefixes": [
+        "copy",
+        "edit",
+        "duplicate",
+        "trash",
+        "restore",
+        "scissors",
+        "eraser",
+        "plus",
+        "minus",
+        "x",
+        "hand",
+        "pointer",
+        "click",
+        "mouse"
+      ],
+      "exact": [],
+      "keywords": "editar copiar eliminar gestio accions"
+    },
+    {
+      "id": "transferencia",
+      "label": "Transferència i actualització",
+      "prefixes": [
+        "upload",
+        "download",
+        "transfer",
+        "refresh",
+        "reload",
+        "rotate",
+        "repeat"
+      ],
+      "exact": [],
+      "keywords": "descarrega carrega actualitza repetir"
+    }
+  ],
+  "benestar": [
+    {
+      "id": "emocions",
+      "label": "Emocions i benestar",
+      "prefixes": [
+        "heart",
+        "mood",
+        "health",
+        "medical",
+        "stethoscope",
+        "peace",
+        "sun",
+        "plant"
+      ],
+      "exact": [],
+      "keywords": "emocions benestar salut anímic"
+    },
+    {
+      "id": "accessibilitat",
+      "label": "Inclusió i accessibilitat",
+      "prefixes": [
+        "wheelchair",
+        "accessible",
+        "accessibility",
+        "contrast",
+        "ear",
+        "hearing",
+        "language",
+        "text",
+        "sign",
+        "eye"
+      ],
+      "exact": [],
+      "keywords": "inclusio accessibilitat diversitat llengua"
+    },
+    {
+      "id": "moviment",
+      "label": "Moviment i interacció",
+      "prefixes": [
+        "walk",
+        "hand",
+        "focus"
+      ],
+      "exact": [],
+      "keywords": "moviment interaccio"
+    }
+  ]
+}

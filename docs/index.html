@@ -84,6 +84,56 @@ fieldset label{display:flex;align-items:center;gap:4px}
  .category-heading h3{font-size:1.18rem}
 }
 
+
+/* Catàleg escalable: vista de categories, temes i paginació */
+.category-nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding:4px 2px 12px;margin-top:18px}
+.category-chip{flex-shrink:0}
+.clear-filters{min-height:44px;padding:10px 14px;border:1px solid var(--border);border-radius:9px;color:var(--blue);background:#fff;cursor:pointer;font:600 .87rem Arial,sans-serif}
+.clear-filters:hover{background:#edf4fa}
+.section-intro{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:22px;flex-wrap:wrap}
+.section-intro h3,.result-header h3{font-size:1.5rem;line-height:1.2;color:var(--blue);margin:0 0 7px}
+.section-intro p,.result-description{color:#647b90;font-size:.94rem;line-height:1.5;margin:0}
+.category-overview{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:16px}
+.category-tile{width:100%;min-height:178px;text-align:left;display:flex;flex-direction:column;justify-content:space-between;gap:14px;border:1px solid var(--border);background:#fff;color:var(--blue);border-radius:17px;padding:20px;cursor:pointer;transition:border-color .18s,box-shadow .18s,transform .18s}
+.category-tile:hover{border-color:#a4bed5;box-shadow:0 10px 24px #234b7212;transform:translateY(-2px)}
+.category-tile h4{margin:0;font-size:1.03rem;line-height:1.28}
+.category-tile .category-meta{color:#60778e;font-size:.85rem;line-height:1.4;margin-top:8px}
+.category-tile .category-preview{display:flex;gap:7px;align-items:center}
+.category-tile .category-preview img{width:51px;height:51px;object-fit:contain}
+.category-tile .tile-action{font-size:.83rem;font-weight:700;color:var(--blue);margin-left:auto}
+.featured-block{margin-top:43px;padding-top:24px;border-top:2px solid var(--border)}
+.result-panel{border-top:2px solid var(--border);padding-top:23px}
+.result-header{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:15px;margin-bottom:20px}
+.crumb{display:inline-flex;margin-bottom:11px;border:0;background:transparent;color:var(--blue);font:600 .86rem Arial,sans-serif;padding:4px 0;cursor:pointer}
+.crumb:hover{text-decoration:underline}
+.topic-nav{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px}
+.topic-chip{min-height:38px;border:1px solid var(--border);background:#fff;border-radius:999px;padding:8px 12px;display:inline-flex;align-items:center;gap:8px;cursor:pointer;color:var(--blue);font:600 .81rem Arial,sans-serif}
+.topic-chip span{font-variant-numeric:tabular-nums;opacity:.7}
+.topic-chip:hover{background:#edf4fa}
+.topic-chip[aria-pressed="true"]{background:var(--blue);color:#fff;border-color:var(--blue)}
+.sort-field{display:flex;align-items:center;gap:9px;color:#5c7186;font-size:.85rem;white-space:nowrap}
+.sort-field select{font:inherit;background:#fff;color:#284158;border:1px solid var(--border);padding:8px 10px;border-radius:8px;min-height:38px}
+.result-group{padding-bottom:27px}
+.result-group + .result-group{border-top:1px solid var(--border);padding-top:25px}
+.result-group h4{color:var(--blue);font-size:1.12rem;margin:0 0 15px}
+.result-group small{font-size:.8rem;font-weight:400;color:#617b91;margin-left:8px}
+.load-row{display:flex;flex-direction:column;align-items:center;gap:11px;margin-top:28px}
+.load-more{padding:12px 22px;min-height:46px;background:var(--blue);color:#fff;border:0;border-radius:10px;cursor:pointer;font:700 .9rem Arial,sans-serif}
+.load-more:hover{filter:brightness(1.08)}
+.load-hint{color:#617990;font-size:.86rem}
+.catalog .card{content-visibility:auto;contain-intrinsic-size:auto 250px}
+:root[data-theme="coral"] .category-tile,:root[data-theme="coral"] .topic-chip,:root[data-theme="coral"] .clear-filters,:root[data-theme="coral"] .sort-field select{background:#fffdfb;border-color:#ead6ce;color:#9e442f}
+:root[data-theme="coral"] .category-tile:hover,:root[data-theme="coral"] .topic-chip:hover,:root[data-theme="coral"] .clear-filters:hover{background:#fff2ec;border-color:#d6a999}
+:root[data-theme="coral"] .topic-chip[aria-pressed="true"],:root[data-theme="coral"] .load-more{background:#9e442f;color:white;border-color:#9e442f}
+:root[data-theme="coral"] .category-meta,:root[data-theme="coral"] .section-intro p,:root[data-theme="coral"] .result-description,:root[data-theme="coral"] .load-hint{color:#836b60}
+@media(max-width:760px){
+ .category-overview{grid-template-columns:repeat(auto-fill,minmax(210px,1fr))}
+ .category-tile{min-height:154px;padding:16px}
+ .topic-nav{flex-wrap:nowrap;overflow-x:auto;padding-bottom:9px}
+ .topic-chip{flex-shrink:0}
+ .sort-field{width:100%;justify-content:flex-start}
+}
+
 </style>
 </head>
 <body>
@@ -91,7 +141,7 @@ fieldset label{display:flex;align-items:center;gap:4px}
 <header>
  <div>
    <div class="kicker">TABLER ICONS · BIBLIOTECA VISUAL</div>
-   <h1>Icones preparades per a les presentacions docents</h1>
+   <h1>Icones preparades per a les vostres presentacions</h1>
    <p>1.000 icones oficials de Tabler adaptades al mateix format circular. Trieu el color i descarregueu directament la versió que necessiteu.</p>
    <div class="metrics"><span><strong>1.000</strong> icones</span><span><strong>2</strong> colors</span><span><strong>SVG + PNG</strong> preparats</span></div>
  </div>
@@ -100,151 +150,16 @@ fieldset label{display:flex;align-items:center;gap:4px}
 <main id="cataleg">
  <div class="section-heading"><div><div class="kicker">CATÀLEG</div><h2>Trobeu la icona adequada</h2></div><div id="status" aria-live="polite">Carregant...</div></div>
  <div class="filters">
-  <label class="field"><span>Cerqueu pel nom o pel tema</span><input type="search" id="search" placeholder="Ex.: escola, avaluació, imatge, comunicació..." autocomplete="off"></label>
-  
+  <label class="field"><span>Cerqueu entre 1.000 icones</span><input type="search" id="search" placeholder="Ex.: llibre, escut, gràfic, microphone..." autocomplete="off"></label>
+  <button id="clear-filters" class="clear-filters" type="button" hidden>Esborra els filtres</button>
   <fieldset><legend>Tema i color de les icones</legend><label><input type="radio" name="color" value="blau" checked> Blau</label><label><input type="radio" name="color" value="coral"> Coral</label></fieldset>
  </div>
- <p class="note">PNG: 256 × 256 px, transparent fora del cercle. SVG: vectorial i editable. Inseriu la imatge completa a Google Slides, sense afegir-hi un altre cercle.</p>
+ <p class="note">Exploreu les categories o cerqueu directament entre les 1.000 icones. El PNG té 256 × 256 píxels i transparència fora del cercle; l’SVG és escalable. Cada icona ja inclou el cercle.</p>
  <nav id="category-nav" class="category-nav" aria-label="Categories d’icones"></nav>
- <div id="cards" class="sections"></div>
+ <div id="browser" class="sections"></div>
  <p id="empty" class="empty" hidden>No s’han trobat icones. Proveu una cerca més general.</p>
 </main>
 <footer><p>Icones originals: <a href="https://github.com/tabler/tabler-icons">Tabler Icons</a>, Paweł Kuna i col·laboradors (MIT). Adaptació gràfica circular.</p><p><a href="https://github.com/miquelangelfuentes/f-tabler-icons">Repositori, codi i documentació</a></p></footer>
 <div id="toast" role="status" aria-live="polite" hidden></div>
-<script>
-'use strict';
-const $=s=>document.querySelector(s);
-const cards=$('#cards'),search=$('#search'),nav=$('#category-nav'),status=$('#status'),empty=$('#empty'),samples=$('#samples');
-let data=null,color='blau',activeCategory='';
-document.documentElement.dataset.theme='blau';
-const synonyms={
-aprenentatge:'escola classe docents alumnat formacio educacio lectura escriptura aprendre activitats',
-'ia-tecnologia':'intel·ligencia artificial tecnologia eines digitals programacio robot dades',
-multimedia:'imatge video audio musica so veu fotografia infografia visuals',
-comunicacio:'conversa missatge correu cooperacio equip claustre',
-avaluacio:'verificacio segur seguretat comprovacio proteccio privacitat retroaccio',
-organitzacio:'planificacio calendari fitxers documents materials centre',
-accions:'navegacio accions passos desar copiar descarregar',
-benestar:'inclusio accessibilitat benestar diversitat suport',
-altres:'recursos diversos'
-};
-const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const asset=(name,ext)=>'./assets/'+color+'/'+ext+'/'+name+'.'+ext;
-function toast(message){const t=$('#toast');t.textContent=message;t.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.hidden=true,2500);}
-function dl(label,name,ext){const a=document.createElement('a');a.textContent=label;a.href=asset(name,ext);a.download=name+'-'+color+'.'+ext;a.setAttribute('aria-label','Descarrega '+a.download);return a;}
-function tile(item){
- const article=document.createElement('article');article.className='card';
- const art=document.createElement('div');art.className='art';
- const image=new Image();image.src=asset(item.name,'png');image.loading='lazy';image.alt='';image.width=88;image.height=88;art.append(image);
- const body=document.createElement('div');body.className='body';
- const h=document.createElement('h3');h.textContent=item.name;
- const actions=document.createElement('div');actions.className='actions';
- actions.append(dl('PNG',item.name,'png'),dl('SVG',item.name,'svg'));
- const copy=document.createElement('button');copy.type='button';copy.textContent='Copia URL';
- copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(new URL(asset(item.name,'png'),location.href).href);toast('Enllaç copiat.')}catch{toast('Obriu el PNG per copiar-ne l’adreça.')}});
- actions.append(copy);body.append(h,actions);article.append(art,body);return article;
-}
-function buildCategoryNavigation(){
- const fragment=document.createDocumentFragment();
- const groups=[{id:'',label:'Totes les categories',count:data.total},...data.categories];
- for(const group of groups){
-   const button=document.createElement('button');
-   button.type='button';
-   button.dataset.category=group.id;
-   button.className='category-chip';
-   button.setAttribute('aria-pressed',String(activeCategory===group.id));
-   const title=document.createElement('span');
-   title.textContent=group.label;
-   const count=document.createElement('span');
-   count.className='chip-count';
-   count.textContent=String(group.count);
-   button.append(title,count);
-   button.addEventListener('click',()=>{
-     activeCategory=group.id;
-     render();
-   });
-   fragment.append(button);
- }
- nav.replaceChildren(fragment);
-}
-function sectionFor(group,items,searchActive){
- const section=document.createElement('section');
- section.className='category-section';
- section.id='categoria-'+group.id;
- section.setAttribute('aria-labelledby','titol-'+group.id);
- const heading=document.createElement('div');
- heading.className='category-heading';
- const title=document.createElement('h3');
- title.id='titol-'+group.id;
- title.textContent=group.label;
- const count=document.createElement('span');
- count.className='category-count';
- count.textContent=searchActive||activeCategory
-   ?items.length+' de '+group.count+' icones'
-   :group.count+' icones';
- heading.append(title,count);
- const grid=document.createElement('div');
- grid.className='catalog';
- for(const item of items)grid.append(tile(item));
- section.append(heading,grid);
- return section;
-}
-function render(){
- if(!data)return;
- document.documentElement.dataset.theme=color;
- // El favicon utilitza la mateixa variant cromàtica que el catàleg.
- document.querySelector('#site-favicon-16').href='./favicon-'+color+'-16.png?v=3';
- document.querySelector('#site-favicon-32').href='./favicon-'+color+'-32.png?v=3';
- document.querySelector('#site-favicon').href='./favicon-'+color+'.svg?v=3';
- document.querySelector('#site-apple-icon').href='./favicon-'+color+'-180.png?v=3';
- const term=normalize(search.value.trim());
- const hits=data.icons.filter(item=>
-   (!activeCategory||activeCategory===item.category)&&
-   (!term||normalize(item.name+' '+item.name.replaceAll('-',' ')+' '+item.category_label+' '+(synonyms[item.category]||'')).includes(term))
- );
- status.textContent=hits.length+' de '+data.total+' icones';
- empty.hidden=hits.length>0;
- const fragment=document.createDocumentFragment();
- for(const group of data.categories){
-   const items=hits.filter(i=>i.category===group.id);
-   if(items.length)fragment.append(sectionFor(group,items,Boolean(term)));
- }
- cards.replaceChildren(fragment);
- for(const button of nav.querySelectorAll('button[data-category]')){
-   button.setAttribute('aria-pressed',String(button.dataset.category===activeCategory));
- }
- const hero=document.createDocumentFragment();
- ['book','brain','photo'].forEach(n=>{
-   if(data.icons.some(i=>i.name===n)){
-     const image=new Image();
-     image.src=asset(n,'png');
-     image.alt='';
-     hero.append(image);
-   }
- });
- samples.replaceChildren(hero);
-}
-async function init(){
- try{
-   const response=await fetch('./data/catalog.json',{cache:'no-cache'});
-   if(!response.ok)throw Error('No hi ha catàleg');
-   data=await response.json();
-   buildCategoryNavigation();
-   render();
- }catch(error){
-   status.textContent='Catàleg pendent de generar';
-   empty.hidden=false;
-   empty.textContent='No s’ha pogut carregar el catàleg. Torneu-ho a provar.';
-   console.error(error);
- }
-}
-search.addEventListener('input',render);
-document.querySelectorAll('[name=color]').forEach(input=>
- input.addEventListener('change',event=>{
-   color=event.currentTarget.value;
-   render();
- })
-);
-init();
-</script>
+<script defer src="./catalog.js?v=4"></script>
 </body></html>
