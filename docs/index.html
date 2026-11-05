@@ -6,8 +6,11 @@
 <meta name="color-scheme" content="light">
 <meta name="description" content="800 icones Tabler circulars en blau tinta i coral, preparades per a presentacions i materials.">
 <title>Biblioteca d’icones Tabler</title>
-<link id="site-favicon" rel="icon" type="image/svg+xml" href="./assets/blau/svg/layout-grid.svg">
-<link id="site-apple-icon" rel="apple-touch-icon" sizes="256x256" href="./assets/blau/png/layout-grid.png">
+<link rel="icon" type="image/x-icon" href="./favicon.ico?v=3">
+<link id="site-favicon-16" rel="icon" type="image/png" sizes="16x16" href="./favicon-blau-16.png?v=3">
+<link id="site-favicon-32" rel="icon" type="image/png" sizes="32x32" href="./favicon-blau-32.png?v=3">
+<link id="site-favicon" rel="icon" type="image/svg+xml" href="./favicon-blau.svg?v=3">
+<link id="site-apple-icon" rel="apple-touch-icon" sizes="180x180" href="./favicon-blau-180.png?v=3">
 <style>
 :root{font-family:Arial,Helvetica,sans-serif;color:#203950;background:#f6f9fc;--blue:#244a73;--coral:#d86f57;--border:#d9e5ee}*{box-sizing:border-box}body{margin:0}a{color:var(--blue);text-underline-offset:3px}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--coral);outline-offset:2px}.skip{position:absolute;left:-9000px}.skip:focus{left:10px;top:10px;background:white;z-index:3}
 header{background:white;border-bottom:1px solid var(--border);padding:60px max(5%,calc((100% - 1180px)/2)) 50px;display:grid;grid-template-columns:1.5fr .8fr;gap:32px;align-items:center}.kicker{color:var(--coral);font-size:.8rem;font-weight:700;letter-spacing:.12em;margin-bottom:14px}h1{color:var(--blue);font-size:clamp(2rem,3.5vw,3.1rem);line-height:1.15;max-width:690px;margin:0 0 19px}header p{line-height:1.6;color:#59738d;max-width:660px}header .metrics{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.metrics span{border:1px solid var(--border);border-radius:100px;padding:9px 15px;background:#f9fbfd;font-size:.9rem}.metrics strong{color:var(--blue)}.preview{min-height:230px;border:1px solid var(--border);border-radius:25px;background:linear-gradient(145deg,#edf4fa,#fff);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;color:var(--blue);text-align:center}.samples{display:flex;gap:9px}.samples img{width:72px;height:72px}.preview small{color:#687f95}
@@ -190,8 +193,10 @@ function render(){
  if(!data)return;
  document.documentElement.dataset.theme=color;
  // El favicon utilitza la mateixa variant cromàtica que el catàleg.
- document.querySelector('#site-favicon').href='./assets/'+color+'/svg/layout-grid.svg';
- document.querySelector('#site-apple-icon').href='./assets/'+color+'/png/layout-grid.png';
+ document.querySelector('#site-favicon-16').href='./favicon-'+color+'-16.png?v=3';
+ document.querySelector('#site-favicon-32').href='./favicon-'+color+'-32.png?v=3';
+ document.querySelector('#site-favicon').href='./favicon-'+color+'.svg?v=3';
+ document.querySelector('#site-apple-icon').href='./favicon-'+color+'-180.png?v=3';
  const term=normalize(search.value.trim());
  const hits=data.icons.filter(item=>
    (!activeCategory||activeCategory===item.category)&&
