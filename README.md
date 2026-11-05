@@ -1,6 +1,6 @@
-# Biblioteca d’icones · FIC Modular
+# Biblioteca d’icones Tabler
 
-Biblioteca visual per a les presentacions de la formació modular CDD-IA: **600 icones Tabler** en **blau tinta i coral**, cadascuna disponible en **SVG i PNG**.
+Biblioteca visual per a presentacions i altres materials: **600 icones Tabler** en **blau tinta i coral**, cadascuna disponible en **SVG i PNG**.
 
 Les icones tenen **un únic cercle integrat** amb el símbol centrat. Així es poden inserir a Google Slides com una sola imatge, evitant els dobles cercles i els desplaçaments de les presentacions originals.
 
@@ -16,7 +16,7 @@ El procés automatitzat genera **2.400 fitxers**: 600 icones × 2 colors × 2 fo
 El cercador web es publica a `https://miquelangelfuentes.github.io/f-tabler-icons/` un cop activat GitHub Pages.
 
 ## Ús
-Descarregueu el PNG o l'SVG del catàleg i inseriu-lo a Google Slides. Per a les targetes feu servir la mida de referència de 42 × 42 de les diapositives 2 i 10 de M2C. **No afegiu cap cercle addicional.**
+Descarregueu el PNG o l'SVG del catàleg i inseriu-lo a Google Slides. Per a les targetes, podeu utilitzar una mida uniforme de 42 × 42. **No afegiu cap cercle addicional.**
 
 ## Generació
 La GitHub Action compila els fitxers a `docs/assets/{blau,coral}/{svg,png}/` a partir de `@tabler/icons@3.50.0`, valida el resultat i el publica.

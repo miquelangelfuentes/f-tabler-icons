@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Biblioteca d'icones circulars FIC Modular (Tabler outline 3.50.0)."""
+"""Biblioteca d'icones circulars Tabler (outline 3.50.0)."""
 from __future__ import annotations
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -106,7 +106,7 @@ def main():
             if i%100==0:print(color,i,"/600",flush=True)
     docs=ROOT/"docs/data"
     docs.mkdir(exist_ok=True,parents=True)
-    metadata={"project":"Biblioteca d'icones FIC Modular","source":"Tabler Icons",
+    metadata={"project":"Biblioteca d'icones Tabler","source":"Tabler Icons",
       "source_version":THEME["tabler_version"],"total":600,
       "palettes":THEME["palettes"],
       "categories":[{k:c[k] for k in ("id","label","count")} for c in CONFIG["categories"]],
