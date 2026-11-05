@@ -42,10 +42,10 @@ def score(name, cat):
 
 def pick(names):
     """Conserva la selecció inicial i afegeix les noves sense reclassificar-les."""
-    original=json.loads((ROOT/"config/original-600.json").read_text(encoding="utf-8"))
+    original=json.loads((ROOT/"config/original-800.json").read_text(encoding="utf-8"))
     original_names=[icon["name"] for icon in original]
-    if len(original)!=600 or len(set(original_names))!=600:
-        raise RuntimeError("El registre original de 600 icones no és vàlid.")
+    if len(original)!=800 or len(set(original_names))!=800:
+        raise RuntimeError("El registre original de 800 icones no és vàlid.")
     priorities={n for c in CONFIG["categories"] for n in c["priority"]}
     available={n for n in names if allowed(n,priorities)}
     if not set(original_names).issubset(set(names)):

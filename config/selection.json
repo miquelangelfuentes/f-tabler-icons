@@ -1,10 +1,10 @@
 {
-  "total": 800,
+  "total": 1000,
   "categories": [
     {
       "id": "aprenentatge",
       "label": "Aprenentatge i docència",
-      "count": 120,
+      "count": 145,
       "prefixes": [
         "school",
         "book",
@@ -50,7 +50,7 @@
     {
       "id": "ia-tecnologia",
       "label": "IA i tecnologia",
-      "count": 95,
+      "count": 120,
       "prefixes": [
         "ai",
         "robot",
@@ -109,7 +109,7 @@
     {
       "id": "multimedia",
       "label": "Imatge i so",
-      "count": 120,
+      "count": 150,
       "prefixes": [
         "photo",
         "image",
@@ -172,7 +172,7 @@
     {
       "id": "comunicacio",
       "label": "Comunicació i col·laboració",
-      "count": 100,
+      "count": 120,
       "prefixes": [
         "message",
         "messages",
@@ -227,7 +227,7 @@
     {
       "id": "avaluacio",
       "label": "Verificació i seguretat",
-      "count": 115,
+      "count": 145,
       "prefixes": [
         "check",
         "checks",
@@ -295,7 +295,7 @@
     {
       "id": "organitzacio",
       "label": "Organització i planificació",
-      "count": 105,
+      "count": 130,
       "prefixes": [
         "calendar",
         "clock",
@@ -360,7 +360,7 @@
     {
       "id": "accions",
       "label": "Accions i navegació",
-      "count": 75,
+      "count": 100,
       "prefixes": [
         "arrow",
         "arrows",
@@ -430,7 +430,7 @@
     {
       "id": "benestar",
       "label": "Inclusió i benestar",
-      "count": 70,
+      "count": 90,
       "prefixes": [
         "heart",
         "mood",

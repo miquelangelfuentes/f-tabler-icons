@@ -7,12 +7,12 @@ import json
 root=Path(__file__).resolve().parents[1]
 cat=json.loads((root/"docs/data/catalog.json").read_text(encoding="utf-8"))
 icons=[i["name"] for i in cat["icons"]]
-assert len(icons)==800 and len(set(icons))==800 and cat["total"]==800
-assert sum(x["count"] for x in cat["categories"])==800
+assert len(icons)==1000 and len(set(icons))==1000 and cat["total"]==1000
+assert sum(x["count"] for x in cat["categories"])==1000
 for category in cat["categories"]:
     assert sum(i["category"]==category["id"] for i in cat["icons"])==category["count"]
-original=json.loads((root/"config/original-600.json").read_text(encoding="utf-8"))
-assert len(original)==600
+original=json.loads((root/"config/original-800.json").read_text(encoding="utf-8"))
+assert len(original)==800
 assert {(i["name"],i["category"]) for i in original}.issubset(
     {(i["name"],i["category"]) for i in cat["icons"]}
 ), "Cal conservar totes les icones originals a les categories corresponents"
@@ -31,4 +31,4 @@ for color in ("blau","coral"):
         svg=ET.parse(root/"docs/assets"/color/"svg"/(name+".svg")).getroot()
         assert svg.attrib.get("viewBox")=="0 0 256 256"
         assert len(svg.findall("{http://www.w3.org/2000/svg}circle"))==1
-print("VALIDAT: 800 icones en 2 colors i 2 formats = 3200 fitxers.")
+print("VALIDAT: 1000 icones en 2 colors i 2 formats = 4000 fitxers.")

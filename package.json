@@ -2,7 +2,7 @@
   "name": "f-tabler-icons",
   "version": "1.0.0",
   "private": true,
-  "description": "Biblioteca de 800 icones circulars Tabler en blau i coral",
+  "description": "Biblioteca de 1.000 icones circulars Tabler en blau i coral",
   "scripts": {
     "build": "python scripts/build.py",
     "validate": "python scripts/validate.py"

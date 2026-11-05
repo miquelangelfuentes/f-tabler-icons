@@ -1,4 +1,4 @@
-name: Generar i publicar les 800 icones Tabler
+name: Generar i publicar les 1.000 icones Tabler
 on:
   push:
     branches: [main]
@@ -40,7 +40,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: Generar SVG i PNG circulars
         run: python scripts/build.py
-      - name: Validar els 3200 fitxers
+      - name: Validar els 4000 fitxers
         run: python scripts/validate.py
       - name: Generar favicon per a les pestanyes
         run: python scripts/build_favicons.py
@@ -51,7 +51,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/assets docs/data/catalog.json config/selected-icons.txt docs/favicon*
           if ! git diff --cached --quiet; then
-            git commit -m "Genera 600 icones Tabler en blau i coral"
+            git commit -m "Genera 1000 icones Tabler en blau i coral"
             git push
           fi
       - name: Preparar catàleg per a Pages
