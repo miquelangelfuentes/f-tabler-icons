@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="chart column" data-icon="chart-column" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#FBE9E4" /><g transform="translate(48 48) scale(6.666666667)" stroke="#D86F57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M4 20h3" />
+  <path d="M17 20h3" />
+  <path d="M10.5 20h3" />
+  <path d="M4 16h3" />
+  <path d="M17 16h3" />
+  <path d="M10.5 16h3" />
+  <path d="M4 12h3" />
+  <path d="M17 12h3" />
+  <path d="M10.5 12h3" />
+  <path d="M4 8h3" />
+  <path d="M17 8h3" />
+  <path d="M4 4h3" />
+</g></svg>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="home check" data-icon="home-check" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#FBE9E4" /><g transform="translate(48 48) scale(6.666666667)" stroke="#D86F57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2" />
+  <path d="M19 13.488v-1.488h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4.525" />
+  <path d="M15 19l2 2l4 -4" />
+</g></svg>

@@ -2,7 +2,7 @@
   "project": "Biblioteca d'icones Tabler",
   "source": "Tabler Icons",
   "source_version": "3.50.0",
-  "total": 600,
+  "total": 800,
   "palettes": {
     "blau": {
       "name": "Blau tinta",
@@ -19,42 +19,42 @@
     {
       "id": "aprenentatge",
       "label": "Aprenentatge i docència",
-      "count": 100
+      "count": 120
     },
     {
       "id": "ia-tecnologia",
       "label": "IA i tecnologia",
-      "count": 70
+      "count": 95
     },
     {
       "id": "multimedia",
       "label": "Imatge i so",
-      "count": 90
+      "count": 120
     },
     {
       "id": "comunicacio",
       "label": "Comunicació i col·laboració",
-      "count": 75
+      "count": 100
     },
     {
       "id": "avaluacio",
       "label": "Verificació i seguretat",
-      "count": 85
+      "count": 115
     },
     {
       "id": "organitzacio",
       "label": "Organització i planificació",
-      "count": 80
+      "count": 105
     },
     {
       "id": "accions",
       "label": "Accions i navegació",
-      "count": 55
+      "count": 75
     },
     {
       "id": "benestar",
       "label": "Inclusió i benestar",
-      "count": 45
+      "count": 70
     }
   ],
   "icons": [
@@ -559,6 +559,106 @@
       "category_label": "Aprenentatge i docència"
     },
     {
+      "name": "pencil-down",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "pencil-minus",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "pencil-pause",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "pencil-cancel",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "pencil-exclamation",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "math-max-min",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "text-regex-end",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "math-function-y",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "math-equal-lower",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "text-regex-start",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "text-wrap-column",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "math-equal-greater",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "text-direction-ltr",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "text-direction-rtl",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "text-wrap-disabled",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "text-regex-asterisk",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "math-y-plus-y",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "math-integral-x",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "math-x-plus-y",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "math-y-minus-y",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
       "name": "robot",
       "category": "ia-tecnologia",
       "category_label": "IA i tecnologia"
@@ -905,6 +1005,131 @@
     },
     {
       "name": "circuit-ammeter",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "circuit-battery",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "browser-maximize",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "circuit-inductor",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "circuit-resistor",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "circuit-capacitor",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "circuit-voltmeter",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "circuit-changeover",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "circuit-pushbutton",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-tv",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-sim",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-usb",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "binary-tree",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-cctv",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-imac",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-ipad",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-watch",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "server-spark",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-airtag",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-floppy",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-laptop",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-mobile",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-remote",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-screen",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-tablet",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-airpods",
       "category": "ia-tecnologia",
       "category_label": "IA i tecnologia"
     },
@@ -1359,6 +1584,156 @@
       "category_label": "Imatge i so"
     },
     {
+      "name": "filter-2-share",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-2-search",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-2-question",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "device-camera-phone",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-x",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-x",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-up",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-up",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-cog",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-pin",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-cog",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-pin",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-bolt",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-down",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-bolt",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-down",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-minus",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-pause",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-minus",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-pause",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-cancel",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-cancel",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "camera-exclamation",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-exclamation",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-x",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-x",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-up",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-up",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-cog",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-pin",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
       "name": "message",
       "category": "comunicacio",
       "category_label": "Comunicació i col·laboració"
@@ -1730,6 +2105,131 @@
     },
     {
       "name": "phone-done",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "phone-spark",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "phone-calling",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "phone-ringing",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "phone-incoming",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "phone-outgoing",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "bell-z",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "user-key",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "mail-fast",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "user-scan",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "mail-spark",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "mail-opened",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "user-screen",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "bell-ringing",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "mail-forward",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "user-pentagon",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-2-code",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-2-plus",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-2-star",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-2-check",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-2-heart",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-2-share",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-2-search",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-2-sparkle",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-2-question",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-x",
       "category": "comunicacio",
       "category_label": "Comunicació i col·laboració"
     },
@@ -2159,6 +2659,156 @@
       "category_label": "Verificació i seguretat"
     },
     {
+      "name": "chart-radar",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-arrows",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-bubble",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-candle",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-cohort",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-column",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-funnel",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-sankey",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "alert-octagon",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-circles",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-scatter",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-treemap",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "alert-triangle",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-covariate",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "chart-infographic",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "zoom-in",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "zoom-out",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "zoom-pan",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "star-half",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "test-pipe",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "zoom-scan",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "zoom-money",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "zoom-reset",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "lock-access",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "zoom-replace",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "lock-password",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "adjustments-x",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "adjustments-up",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "adjustments-cog",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "adjustments-pin",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
       "name": "calendar",
       "category": "organitzacio",
       "category_label": "Organització i planificació"
@@ -2559,6 +3209,131 @@
       "category_label": "Organització i planificació"
     },
     {
+      "name": "file-info",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "file-lock",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "file-star",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-edit",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-lock",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-plus",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-star",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "file-chart",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-check",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-heart",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-share",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "file-search",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "file-upload",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-search",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-shield",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "list-search",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "file-download",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "file-settings",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "home-question",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "file-analytics",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "map-code",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "map-lock",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "map-plus",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "map-star",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "map-check",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
       "name": "arrow-right",
       "category": "accions",
       "category_label": "Accions i navegació"
@@ -2834,6 +3609,106 @@
       "category_label": "Accions i navegació"
     },
     {
+      "name": "arrows-join",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-left",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-move",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-sort",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "repeat-once",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-cross",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-right",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-split",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-random",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-shuffle",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-diagonal",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-minimize",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-vertical",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "rotate-clockwise",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "rotate-rectangle",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-horizontal",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrow-back",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrow-fork",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrow-guide",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrow-merge",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
       "name": "heart",
       "category": "benestar",
       "category_label": "Inclusió i benestar"
@@ -3055,6 +3930,131 @@
     },
     {
       "name": "mood-sing",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-wink",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-wrrr",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "sign-left",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-angry",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-empty",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-spark",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "sign-right",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-tongue",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-annoyed",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-nervous",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-neutral",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-puzzled",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-silence",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-confused",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-unamused",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "hand-sanitizer",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-surprised",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "sun-low",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "ear-scan",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "sun-high",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "sun-moon",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "sun-wind",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "eye-spark",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "eye-table",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "eye-closed",
       "category": "benestar",
       "category_label": "Inclusió i benestar"
     }

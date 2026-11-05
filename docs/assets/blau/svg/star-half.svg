@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="star half" data-icon="star-half" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#E8F0F6" /><g transform="translate(48 48) scale(6.666666667)" stroke="#244A73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l.007 15.748" />
+</g></svg>

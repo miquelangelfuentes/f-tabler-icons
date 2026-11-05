@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="text regex end" data-icon="text-regex-end" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#FBE9E4" /><g transform="translate(48 48) scale(6.666666667)" stroke="#D86F57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M10 8v6a2 2 0 1 0 4 0v-1a2 2 0 1 0 -4 0v1" />
+  <path d="M7 16v-3a2 2 0 1 0 -4 0v1a2 2 0 0 0 3.726 1.01" />
+  <path d="M21 10h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
+  <path d="M19 10v-1" />
+  <path d="M19 16v1" />
+</g></svg>

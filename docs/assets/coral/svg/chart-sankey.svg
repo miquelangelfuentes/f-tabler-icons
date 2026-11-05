@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="chart sankey" data-icon="chart-sankey" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#FBE9E4" /><g transform="translate(48 48) scale(6.666666667)" stroke="#D86F57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M4 6c6.944 0 9.056 8 16 8" />
+  <path d="M4 12c6.37 0 9.63 6 16 6" />
+  <path d="M20 6c-7.526 0 -7.905 12 -16 12" />
+</g></svg>

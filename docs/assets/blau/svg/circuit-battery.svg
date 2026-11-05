@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="circuit battery" data-icon="circuit-battery" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#E8F0F6" /><g transform="translate(48 48) scale(6.666666667)" stroke="#244A73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M2 12h4" />
+  <path d="M18 12h4" />
+  <path d="M18 5v14" />
+  <path d="M14 9v6" />
+  <path d="M10 5v14" />
+  <path d="M6 9v6" />
+</g></svg>

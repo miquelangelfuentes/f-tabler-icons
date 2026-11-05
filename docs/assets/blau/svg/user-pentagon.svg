@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="user pentagon" data-icon="user-pentagon" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#E8F0F6" /><g transform="translate(48 48) scale(6.666666667)" stroke="#244A73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M13.163 2.168l8.021 5.828c.694 .504 .984 1.397 .719 2.212l-3.064 9.43a1.978 1.978 0 0 1 -1.881 1.367h-9.916a1.978 1.978 0 0 1 -1.881 -1.367l-3.064 -9.43a1.978 1.978 0 0 1 .719 -2.212l8.021 -5.828a1.978 1.978 0 0 1 2.326 0" />
+  <path d="M12 13a3 3 0 1 0 0 -6a3 3 0 0 0 0 6" />
+  <path d="M6 20.703v-.703a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v.707" />
+</g></svg>

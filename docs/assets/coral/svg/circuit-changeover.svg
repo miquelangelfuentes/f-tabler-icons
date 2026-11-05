@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="circuit changeover" data-icon="circuit-changeover" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#FBE9E4" /><g transform="translate(48 48) scale(6.666666667)" stroke="#D86F57" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M2 12h2" />
+  <path d="M20 7h2" />
+  <path d="M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M20 17h2" />
+  <path d="M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M7.5 10.5l8.5 -3.5" />
+</g></svg>

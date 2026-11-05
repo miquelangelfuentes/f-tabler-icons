@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="file download" data-icon="file-download" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#E8F0F6" /><g transform="translate(48 48) scale(6.666666667)" stroke="#244A73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+  <path d="M12 17v-6" />
+  <path d="M9.5 14.5l2.5 2.5l2.5 -2.5" />
+</g></svg>
