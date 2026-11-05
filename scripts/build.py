@@ -41,23 +41,39 @@ def score(name, cat):
             +(80 if name.endswith("-ai") else 0))
 
 def pick(names):
+    """Conserva la selecció inicial i afegeix les noves sense reclassificar-les."""
+    original=json.loads((ROOT/"config/original-600.json").read_text(encoding="utf-8"))
+    original_names=[icon["name"] for icon in original]
+    if len(original)!=600 or len(set(original_names))!=600:
+        raise RuntimeError("El registre original de 600 icones no és vàlid.")
     priorities={n for c in CONFIG["categories"] for n in c["priority"]}
     available={n for n in names if allowed(n,priorities)}
+    if not set(original_names).issubset(set(names)):
+        raise RuntimeError("Falten icones originals a la versió de Tabler utilitzada.")
     selected=[]
-    used=set()
+    used=set(original_names)
     for cat in CONFIG["categories"]:
+        pinned=[icon for icon in original if icon["category"]==cat["id"]]
+        if any(icon["category_label"]!=cat["label"] for icon in pinned):
+            raise RuntimeError("La categoria original ha canviat: "+cat["id"])
+        needed=cat["count"]-len(pinned)
+        if needed<0:
+            raise RuntimeError("La quota és inferior al conjunt original: "+cat["id"])
         candidates=sorted((n for n in available-used if score(n,cat)>0),
                           key=lambda n:(-score(n,cat),len(n),n))
-        for name in candidates[:cat["count"]]:
-            selected.append({"name":name,"category":cat["id"],"category_label":cat["label"]})
-            used.add(name)
-    while len(selected)<CONFIG["total"]:
-        remaining=sorted(available-used,key=lambda n:(len(n.split("-")),len(n),n))
-        if not remaining: raise RuntimeError("No hi ha suficients icones elegibles.")
-        name=remaining[0]
-        selected.append({"name":name,"category":"altres","category_label":"Altres"})
-        used.add(name)
-    if len(selected)!=600 or len(used)!=600: raise RuntimeError("La selecció no és de 600 icones úniques.")
+        if len(candidates)<needed:
+            raise RuntimeError("No hi ha prou icones candidates a "+cat["id"])
+        extra=candidates[:needed]
+        selected.extend(pinned)
+        selected.extend({"name":name,"category":cat["id"],"category_label":cat["label"]}
+                        for name in extra)
+        used.update(extra)
+    if len(selected)!=CONFIG["total"] or len({x["name"] for x in selected})!=CONFIG["total"]:
+        raise RuntimeError("La selecció final no és de %d icones úniques."%CONFIG["total"])
+    original_assignments={(x["name"],x["category"],x["category_label"]) for x in original}
+    final_assignments={(x["name"],x["category"],x["category_label"]) for x in selected}
+    if not original_assignments.issubset(final_assignments):
+        raise RuntimeError("S'ha perdut o reclassificat alguna icona original.")
     return selected
 
 def svg_bytes(name,pal):
@@ -103,15 +119,15 @@ def main():
             (vdir/(name+".svg")).write_bytes(svg)
             cairosvg.svg2png(bytestring=svg,write_to=str(pdir/(name+".png")),
                              output_width=THEME["canvas_px"],output_height=THEME["canvas_px"])
-            if i%100==0:print(color,i,"/600",flush=True)
+            if i%100==0:print(color,i,"/"+str(CONFIG["total"]),flush=True)
     docs=ROOT/"docs/data"
     docs.mkdir(exist_ok=True,parents=True)
     metadata={"project":"Biblioteca d'icones Tabler","source":"Tabler Icons",
-      "source_version":THEME["tabler_version"],"total":600,
+      "source_version":THEME["tabler_version"],"total":CONFIG["total"],
       "palettes":THEME["palettes"],
       "categories":[{k:c[k] for k in ("id","label","count")} for c in CONFIG["categories"]],
       "icons":selected}
     (docs/"catalog.json").write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     (ROOT/"config/selected-icons.txt").write_text("\n".join(x["name"] for x in selected)+"\n",encoding="utf-8")
-    print("OK: 600 icones / 1200 SVG / 1200 PNG",dict(Counter(x["category"] for x in selected)))
+    print("OK: %d icones / %d SVG / %d PNG"%(CONFIG["total"],CONFIG["total"]*2,CONFIG["total"]*2),dict(Counter(x["category"] for x in selected)))
 if __name__=="__main__":main()
