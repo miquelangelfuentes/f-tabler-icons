@@ -13,7 +13,7 @@ Les icones tenen **un únic cercle integrat** amb el símbol centrat. Així es p
 El procés automatitzat genera **2.400 fitxers**: 600 icones × 2 colors × 2 formats.
 
 ## Catàleg
-El cercador web es publica a `https://miquelangelfuentes.github.io/f-tabler-icons/` un cop activat GitHub Pages.
+El [catàleg web](https://miquelangelfuentes.github.io/f-tabler-icons/) presenta les icones agrupades per categories, amb navegació per àmbits i cerca. El selector blau/coral modifica tant les icones com el tema visual de la pàgina.
 
 ## Ús
 Descarregueu el PNG o l'SVG del catàleg i inseriu-lo a Google Slides. Per a les targetes, podeu utilitzar una mida uniforme de 42 × 42. **No afegiu cap cercle addicional.**

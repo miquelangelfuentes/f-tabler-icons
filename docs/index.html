@@ -11,6 +11,74 @@
 header{background:white;border-bottom:1px solid var(--border);padding:60px max(5%,calc((100% - 1180px)/2)) 50px;display:grid;grid-template-columns:1.5fr .8fr;gap:32px;align-items:center}.kicker{color:var(--coral);font-size:.8rem;font-weight:700;letter-spacing:.12em;margin-bottom:14px}h1{color:var(--blue);font-size:clamp(2rem,3.5vw,3.1rem);line-height:1.15;max-width:690px;margin:0 0 19px}header p{line-height:1.6;color:#59738d;max-width:660px}header .metrics{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.metrics span{border:1px solid var(--border);border-radius:100px;padding:9px 15px;background:#f9fbfd;font-size:.9rem}.metrics strong{color:var(--blue)}.preview{min-height:230px;border:1px solid var(--border);border-radius:25px;background:linear-gradient(145deg,#edf4fa,#fff);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;color:var(--blue);text-align:center}.samples{display:flex;gap:9px}.samples img{width:72px;height:72px}.preview small{color:#687f95}
 main{max-width:1220px;margin:auto;padding:48px 25px 90px}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:10px;margin-bottom:25px}h2{font-size:clamp(1.5rem,3vw,2.1rem);color:var(--blue);margin:0}#status{font-size:.9rem;color:#5c7285}.filters{display:flex;gap:14px;flex-wrap:wrap;align-items:end;background:white;border:1px solid var(--border);padding:19px;border-radius:17px}.field{display:flex;flex-direction:column;gap:7px;color:var(--blue);font-size:.84rem;font-weight:700}.field:first-child{flex:1;min-width:260px}.field input,.field select{font:normal 15px Arial,sans-serif;padding:12px 13px;min-height:44px;border:1px solid #c7d5e2;border-radius:9px;color:#284158;background:#fff}.field select{min-width:195px}fieldset{margin:0;border:0;display:flex;gap:12px;padding:0;align-items:center}legend{color:var(--blue);font-size:.84rem;font-weight:bold;padding-bottom:10px}fieldset label{font-size:.88rem;white-space:nowrap;cursor:pointer}input[type=radio]{accent-color:var(--blue)}.note{margin:19px 0 27px;color:#63798e;font-size:.9rem;line-height:1.5}.catalog{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}.card{border:1px solid var(--border);background:#fff;border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:border-color .2s,box-shadow .2s}.card:hover{border-color:#b8cee0;box-shadow:0 8px 20px #234b7212}.art{background:#fafcfe;min-height:138px;display:grid;place-items:center}.art img{height:88px;width:88px;object-fit:contain}.body{padding:13px;display:flex;flex:1;flex-direction:column}.body h3{font-size:.92rem;color:var(--blue);margin:0 0 6px;overflow-wrap:anywhere}.tag{font-size:.73rem;color:#6c8295;margin:0 0 17px}.actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}.actions a,.actions button{font:600 .74rem Arial,sans-serif;text-decoration:none;background:#eff4f9;color:var(--blue);padding:7px 9px;border:1px solid #dce6ef;border-radius:8px;cursor:pointer}.actions a:hover,.actions button:hover{background:#dfeefa}.empty{padding:40px;text-align:center;color:#667f94}footer{background:white;border-top:1px solid var(--border);padding:30px max(5%,calc((100% - 1180px)/2));color:#657d93;font-size:.84rem;line-height:1.6}#toast{position:fixed;bottom:20px;right:20px;background:#244a73;color:#fff;padding:13px 19px;border-radius:10px;box-shadow:0 5px 20px #0003}
 @media(max-width:750px){header{grid-template-columns:1fr;padding:40px 25px}.preview{min-height:155px}.section-heading{align-items:start;flex-direction:column}.catalog{grid-template-columns:repeat(auto-fill,minmax(145px,1fr))}}
+
+/* La variant seleccionada s'aplica a les icones i a tota la interfície. */
+:root[data-theme="coral"]{
+ --blue:#9e442f;
+ --coral:#cf664e;
+ --border:#ead6ce;
+ background:#fff8f5;
+ color:#523c36;
+}
+:root[data-theme="coral"] body{background:#fff8f5;color:#523c36}
+:root[data-theme="coral"] header,
+:root[data-theme="coral"] footer,
+:root[data-theme="coral"] .filters,
+:root[data-theme="coral"] .card{background:#fffdfb}
+:root[data-theme="coral"] header p{color:#805e54}
+:root[data-theme="coral"] .metrics span{background:#fff4ef;color:#76594f}
+:root[data-theme="coral"] .preview{background:linear-gradient(145deg,#fbe7e0,#fffcfa)}
+:root[data-theme="coral"] .preview small,
+:root[data-theme="coral"] .note,
+:root[data-theme="coral"] #status,
+:root[data-theme="coral"] footer{color:#81685f}
+:root[data-theme="coral"] .art{background:#fff7f3}
+:root[data-theme="coral"] .card:hover{border-color:#dda997;box-shadow:0 8px 20px #9e442f14}
+:root[data-theme="coral"] .actions a,
+:root[data-theme="coral"] .actions button{background:#faeee9;border-color:#efd8cf}
+:root[data-theme="coral"] .actions a:hover,
+:root[data-theme="coral"] .actions button:hover{background:#f5ddd4}
+:root[data-theme="coral"] .field input{border-color:#e1c8c0;color:#5b4037}
+:root[data-theme="coral"] #toast{background:#9e442f}
+:root[data-theme="coral"] .category-chip{background:#fffdfb;color:#9e442f}
+:root[data-theme="coral"] .category-chip:hover{background:#fbede7}
+:root[data-theme="coral"] .category-chip[aria-pressed="true"]{background:#9e442f;color:white}
+:root[data-theme="coral"] .category-section{border-color:#ead6ce}
+input[type=radio]{cursor:pointer}
+fieldset label{display:flex;align-items:center;gap:4px}
+.category-nav{display:flex;flex-wrap:wrap;gap:10px;margin:25px 0 29px}
+.category-chip{
+ display:inline-flex;align-items:center;justify-content:space-between;gap:12px;
+ border:1px solid var(--border);border-radius:999px;
+ background:#fff;color:var(--blue);font:600 .9rem Arial,sans-serif;
+ padding:11px 15px;min-height:44px;cursor:pointer;
+ transition:background .15s,border-color .15s;
+}
+.category-chip:hover{background:#eaf2f9;border-color:var(--blue)}
+.category-chip[aria-pressed="true"]{
+ background:var(--blue);color:white;border-color:var(--blue)
+}
+.chip-count{font-size:.8rem;opacity:.75;font-variant-numeric:tabular-nums}
+.sections{display:flex;flex-direction:column;gap:43px}
+.category-section{
+ border-top:2px solid var(--border);
+ padding-top:21px;scroll-margin-top:20px;
+}
+.category-heading{
+ display:flex;align-items:baseline;justify-content:space-between;
+ flex-wrap:wrap;gap:8px 18px;margin-bottom:20px;
+}
+.category-heading h3{font-size:1.4rem;color:var(--blue);line-height:1.3;margin:0}
+.category-count{color:#607b90;font-size:.88rem;font-variant-numeric:tabular-nums}
+:root[data-theme="coral"] .category-count{color:#84675c}
+.card h3{margin-bottom:13px}
+@media(max-width:750px){
+ .category-nav{gap:8px;margin:22px 0}
+ .category-chip{padding:9px 13px}
+ .sections{gap:32px}
+ .category-heading h3{font-size:1.18rem}
+}
+
 </style>
 </head>
 <body>
@@ -28,11 +96,12 @@ main{max-width:1220px;margin:auto;padding:48px 25px 90px}.section-heading{displa
  <div class="section-heading"><div><div class="kicker">CATÀLEG</div><h2>Trobeu la icona adequada</h2></div><div id="status" aria-live="polite">Carregant...</div></div>
  <div class="filters">
   <label class="field"><span>Cerqueu pel nom o pel tema</span><input type="search" id="search" placeholder="Ex.: escola, avaluació, imatge, comunicació..." autocomplete="off"></label>
-  <label class="field"><span>Àmbit</span><select id="category"><option value="">Tots els àmbits</option></select></label>
-  <fieldset><legend>Color</legend><label><input type="radio" name="color" value="blau" checked> Blau</label><label><input type="radio" name="color" value="coral"> Coral</label></fieldset>
+  
+  <fieldset><legend>Tema i color de les icones</legend><label><input type="radio" name="color" value="blau" checked> Blau</label><label><input type="radio" name="color" value="coral"> Coral</label></fieldset>
  </div>
  <p class="note">PNG: 256 × 256 px, transparent fora del cercle. SVG: vectorial i editable. Inseriu la imatge completa a Google Slides, sense afegir-hi un altre cercle.</p>
- <div id="cards" class="catalog"></div>
+ <nav id="category-nav" class="category-nav" aria-label="Categories d’icones"></nav>
+ <div id="cards" class="sections"></div>
  <p id="empty" class="empty" hidden>No s’han trobat icones. Proveu una cerca més general.</p>
 </main>
 <footer><p>Icones originals: <a href="https://github.com/tabler/tabler-icons">Tabler Icons</a>, Paweł Kuna i col·laboradors (MIT). Adaptació gràfica circular.</p><p><a href="https://github.com/miquelangelfuentes/f-tabler-icons">Repositori, codi i documentació</a></p></footer>
@@ -40,8 +109,9 @@ main{max-width:1220px;margin:auto;padding:48px 25px 90px}.section-heading{displa
 <script>
 'use strict';
 const $=s=>document.querySelector(s);
-const cards=$('#cards'),search=$('#search'),category=$('#category'),status=$('#status'),empty=$('#empty'),samples=$('#samples');
-let data=null,color='blau';
+const cards=$('#cards'),search=$('#search'),nav=$('#category-nav'),status=$('#status'),empty=$('#empty'),samples=$('#samples');
+let data=null,color='blau',activeCategory='';
+document.documentElement.dataset.theme='blau';
 const synonyms={
 aprenentatge:'escola classe docents alumnat formacio educacio lectura escriptura aprendre activitats',
 'ia-tecnologia':'intel·ligencia artificial tecnologia eines digitals programacio robot dades',
@@ -63,30 +133,108 @@ function tile(item){
  const image=new Image();image.src=asset(item.name,'png');image.loading='lazy';image.alt='';image.width=88;image.height=88;art.append(image);
  const body=document.createElement('div');body.className='body';
  const h=document.createElement('h3');h.textContent=item.name;
- const tag=document.createElement('div');tag.className='tag';tag.textContent=item.category_label;
  const actions=document.createElement('div');actions.className='actions';
  actions.append(dl('PNG',item.name,'png'),dl('SVG',item.name,'svg'));
  const copy=document.createElement('button');copy.type='button';copy.textContent='Copia URL';
  copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(new URL(asset(item.name,'png'),location.href).href);toast('Enllaç copiat.')}catch{toast('Obriu el PNG per copiar-ne l’adreça.')}});
- actions.append(copy);body.append(h,tag,actions);article.append(art,body);return article;
+ actions.append(copy);body.append(h,actions);article.append(art,body);return article;
+}
+function buildCategoryNavigation(){
+ const fragment=document.createDocumentFragment();
+ const groups=[{id:'',label:'Totes les categories',count:data.total},...data.categories];
+ for(const group of groups){
+   const button=document.createElement('button');
+   button.type='button';
+   button.dataset.category=group.id;
+   button.className='category-chip';
+   button.setAttribute('aria-pressed',String(activeCategory===group.id));
+   const title=document.createElement('span');
+   title.textContent=group.label;
+   const count=document.createElement('span');
+   count.className='chip-count';
+   count.textContent=String(group.count);
+   button.append(title,count);
+   button.addEventListener('click',()=>{
+     activeCategory=group.id;
+     render();
+   });
+   fragment.append(button);
+ }
+ nav.replaceChildren(fragment);
+}
+function sectionFor(group,items,searchActive){
+ const section=document.createElement('section');
+ section.className='category-section';
+ section.id='categoria-'+group.id;
+ section.setAttribute('aria-labelledby','titol-'+group.id);
+ const heading=document.createElement('div');
+ heading.className='category-heading';
+ const title=document.createElement('h3');
+ title.id='titol-'+group.id;
+ title.textContent=group.label;
+ const count=document.createElement('span');
+ count.className='category-count';
+ count.textContent=searchActive||activeCategory
+   ?items.length+' de '+group.count+' icones'
+   :group.count+' icones';
+ heading.append(title,count);
+ const grid=document.createElement('div');
+ grid.className='catalog';
+ for(const item of items)grid.append(tile(item));
+ section.append(heading,grid);
+ return section;
 }
 function render(){
  if(!data)return;
- const term=normalize(search.value.trim()),cat=category.value;
- const hits=data.icons.filter(i=>(!cat||cat===i.category)&&(!term||normalize(i.name+' '+i.name.replaceAll('-',' ')+' '+i.category_label+' '+(synonyms[i.category]||'')).includes(term)));
- status.textContent=hits.length+' de '+data.total+' icones';empty.hidden=hits.length>0;
- const f=document.createDocumentFragment();hits.forEach(i=>f.append(tile(i)));cards.replaceChildren(f);
- const hero=document.createDocumentFragment();['book','brain','photo'].forEach(n=>{if(data.icons.some(i=>i.name===n)){const x=new Image();x.src=asset(n,'png');x.alt='';hero.append(x)}});samples.replaceChildren(hero);
+ document.documentElement.dataset.theme=color;
+ const term=normalize(search.value.trim());
+ const hits=data.icons.filter(item=>
+   (!activeCategory||activeCategory===item.category)&&
+   (!term||normalize(item.name+' '+item.name.replaceAll('-',' ')+' '+item.category_label+' '+(synonyms[item.category]||'')).includes(term))
+ );
+ status.textContent=hits.length+' de '+data.total+' icones';
+ empty.hidden=hits.length>0;
+ const fragment=document.createDocumentFragment();
+ for(const group of data.categories){
+   const items=hits.filter(i=>i.category===group.id);
+   if(items.length)fragment.append(sectionFor(group,items,Boolean(term)));
+ }
+ cards.replaceChildren(fragment);
+ for(const button of nav.querySelectorAll('button[data-category]')){
+   button.setAttribute('aria-pressed',String(button.dataset.category===activeCategory));
+ }
+ const hero=document.createDocumentFragment();
+ ['book','brain','photo'].forEach(n=>{
+   if(data.icons.some(i=>i.name===n)){
+     const image=new Image();
+     image.src=asset(n,'png');
+     image.alt='';
+     hero.append(image);
+   }
+ });
+ samples.replaceChildren(hero);
 }
 async function init(){
- try{const r=await fetch('./data/catalog.json',{cache:'no-cache'});if(!r.ok)throw Error('No hi ha catàleg');
- data=await r.json();
- data.categories.forEach(c=>{const x=document.createElement('option');x.value=c.id;x.textContent=c.label;category.append(x)});
- render();
- }catch(e){status.textContent='Catàleg pendent de generar';empty.hidden=false;empty.textContent='El catàleg es generarà automàticament amb la primera execució de GitHub Actions.';console.error(e);}
+ try{
+   const response=await fetch('./data/catalog.json',{cache:'no-cache'});
+   if(!response.ok)throw Error('No hi ha catàleg');
+   data=await response.json();
+   buildCategoryNavigation();
+   render();
+ }catch(error){
+   status.textContent='Catàleg pendent de generar';
+   empty.hidden=false;
+   empty.textContent='No s’ha pogut carregar el catàleg. Torneu-ho a provar.';
+   console.error(error);
+ }
 }
-search.addEventListener('input',render);category.addEventListener('change',render);
-document.querySelectorAll('[name=color]').forEach(i=>i.addEventListener('change',event=>{color=event.currentTarget.value;render()}));
+search.addEventListener('input',render);
+document.querySelectorAll('[name=color]').forEach(input=>
+ input.addEventListener('change',event=>{
+   color=event.currentTarget.value;
+   render();
+ })
+);
 init();
 </script>
 </body></html>
