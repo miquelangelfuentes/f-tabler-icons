@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="microscope" data-icon="microscope" data-source="Tabler Icons 3.50.0"><circle cx="128" cy="128" r="120" fill="#E8F0F6" /><g transform="translate(48 48) scale(6.666666667)" stroke="#244A73" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path stroke="none" d="M0 0h24v24H0z" fill="none" />
+  <path d="M5 21h14" />
+  <path d="M6 18h2" />
+  <path d="M7 18v3" />
+  <path d="M9 11l3 3l6 -6l-3 -3l-6 6" />
+  <path d="M10.5 12.5l-1.5 1.5" />
+  <path d="M17 3l3 3" />
+  <path d="M12 21a6 6 0 0 0 3.715 -10.712" />
+</g></svg>

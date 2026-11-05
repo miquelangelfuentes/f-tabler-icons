@@ -2,7 +2,7 @@
   "project": "Biblioteca d'icones Tabler",
   "source": "Tabler Icons",
   "source_version": "3.50.0",
-  "total": 800,
+  "total": 1000,
   "palettes": {
     "blau": {
       "name": "Blau tinta",
@@ -19,42 +19,42 @@
     {
       "id": "aprenentatge",
       "label": "Aprenentatge i docència",
-      "count": 120
+      "count": 145
     },
     {
       "id": "ia-tecnologia",
       "label": "IA i tecnologia",
-      "count": 95
+      "count": 120
     },
     {
       "id": "multimedia",
       "label": "Imatge i so",
-      "count": 120
+      "count": 150
     },
     {
       "id": "comunicacio",
       "label": "Comunicació i col·laboració",
-      "count": 100
+      "count": 120
     },
     {
       "id": "avaluacio",
       "label": "Verificació i seguretat",
-      "count": 115
+      "count": 145
     },
     {
       "id": "organitzacio",
       "label": "Organització i planificació",
-      "count": 105
+      "count": 130
     },
     {
       "id": "accions",
       "label": "Accions i navegació",
-      "count": 75
+      "count": 100
     },
     {
       "id": "benestar",
       "label": "Inclusió i benestar",
-      "count": 70
+      "count": 90
     }
   ],
   "icons": [
@@ -659,6 +659,131 @@
       "category_label": "Aprenentatge i docència"
     },
     {
+      "name": "abacus",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "article",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "atom",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "backpack",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "briefcase",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "compass",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "dna",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "equal",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "flask",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "geometry",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "graph",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "keyboard",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "list-letters",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "list-numbers",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "list-tree",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "microscope",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "note",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "puzzle",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "script",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "shape",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "spiral",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "square-root",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "sum",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "telescope",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
+      "name": "infinity",
+      "category": "aprenentatge",
+      "category_label": "Aprenentatge i docència"
+    },
+    {
       "name": "robot",
       "category": "ia-tecnologia",
       "category_label": "IA i tecnologia"
@@ -1130,6 +1255,131 @@
     },
     {
       "name": "device-airpods",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-desktop",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-gamepad",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-speaker",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-unknown",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "cloud-lock-open",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-nintendo",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "window-maximize",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "window-minimize",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-projector",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "device-workstation",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "cloud-fog",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "cloud-rain",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "cloud-snow",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "cloud-storm",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "cloud-network",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "cloud-computing",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "code-dots",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "code-asterisk",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "code-variable",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "api-app",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "api-book",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "git-fork",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "git-merge",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "git-branch",
+      "category": "ia-tecnologia",
+      "category_label": "IA i tecnologia"
+    },
+    {
+      "name": "git-commit",
       "category": "ia-tecnologia",
       "category_label": "IA i tecnologia"
     },
@@ -1734,6 +1984,156 @@
       "category_label": "Imatge i so"
     },
     {
+      "name": "photo-cog",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-pin",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-bolt",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-down",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-bolt",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-down",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-minus",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-pause",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-minus",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-pause",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "video-minus",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-cancel",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-cancel",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-circle",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-hexagon",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "music-exclamation",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-exclamation",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "wave-square",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "picture-in-picture",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-2-spark",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "player-skip-back",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-2-discount",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "player-track-next",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "player-track-prev",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "player-skip-forward",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "image-in-picture",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "scan-letter-t",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "wave-saw-tool",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "photo-circle-plus",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
+      "name": "filter-2-x",
+      "category": "multimedia",
+      "category_label": "Imatge i so"
+    },
+    {
       "name": "message",
       "category": "comunicacio",
       "category_label": "Comunicació i col·laboració"
@@ -2230,6 +2630,106 @@
     },
     {
       "name": "message-x",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-up",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-cog",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-pin",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-bolt",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-down",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-minus",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-pause",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-cancel",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "message-exclamation",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "bubble-x",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "bubble-minus",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "phone-x",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "phone-pause",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "users-minus",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "bell-x",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "mail-x",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "user-x",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "bell-up",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "mail-up",
+      "category": "comunicacio",
+      "category_label": "Comunicació i col·laboració"
+    },
+    {
+      "name": "user-up",
       "category": "comunicacio",
       "category_label": "Comunicació i col·laboració"
     },
@@ -2809,6 +3309,156 @@
       "category_label": "Verificació i seguretat"
     },
     {
+      "name": "adjustments-bolt",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "adjustments-down",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "adjustments-minus",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "adjustments-pause",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "adjustments-cancel",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "exclamation-circle",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "eye-dotted",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "eye-discount",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "adjustments-exclamation",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "circle-x",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "progress-x",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "progress-bolt",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "progress-down",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-x",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-up",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-cog",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-pin",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-bolt",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-down",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-minus",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-pause",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-cancel",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "shield-exclamation",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "alert-circle",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "alert-square",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "alert-hexagon",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "lock-x",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "lock-up",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "lock-cog",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
+      "name": "lock-pin",
+      "category": "avaluacio",
+      "category_label": "Verificació i seguretat"
+    },
+    {
       "name": "calendar",
       "category": "organitzacio",
       "category_label": "Organització i planificació"
@@ -3334,6 +3984,131 @@
       "category_label": "Organització i planificació"
     },
     {
+      "name": "map-heart",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "map-share",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "map-search",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "map-shield",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "map-question",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "calendar-dot",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "calendar-due",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "calendar-sad",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "building-arch",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "building-bank",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "calendar-time",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "calendar-week",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "building-store",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "calendar-event",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "calendar-month",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "calendar-smile",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "calendar-stats",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "settings-spark",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "timeline-event",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "building-bridge",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "building-castle",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "building-church",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "building-circus",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "building-estate",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
+      "name": "building-mosque",
+      "category": "organitzacio",
+      "category_label": "Organització i planificació"
+    },
+    {
       "name": "arrow-right",
       "category": "accions",
       "category_label": "Accions i navegació"
@@ -3709,6 +4484,131 @@
       "category_label": "Accions i navegació"
     },
     {
+      "name": "arrow-bounce",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrow-capsule",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrow-forward",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "minus-vertical",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrow-iteration",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "edit-bulk",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "menu-deep",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "menu-order",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "plus-equal",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "x-mark",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-x",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "chevron-up",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-up",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-cog",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-pin",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "chevron-down",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-bolt",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-down",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-minus",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-pause",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-cancel",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "pointer-exclamation",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-up",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "arrows-down",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
+      "name": "trash-x",
+      "category": "accions",
+      "category_label": "Accions i navegació"
+    },
+    {
       "name": "heart",
       "category": "benestar",
       "category_label": "Inclusió i benestar"
@@ -4055,6 +4955,106 @@
     },
     {
       "name": "eye-closed",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "sun-electricity",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-x",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-up",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-cog",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-pin",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-bolt",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-down",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-minus",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-pause",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-cancel",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "heart-exclamation",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-x",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-up",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-cog",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-pin",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "mood-minus",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "eye-x",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "eye-up",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "eye-cog",
+      "category": "benestar",
+      "category_label": "Inclusió i benestar"
+    },
+    {
+      "name": "eye-pin",
       "category": "benestar",
       "category_label": "Inclusió i benestar"
     }
