@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="600 icones Tabler circulars en blau tinta i coral, preparades per a les presentacions FIC Modular.">
+<title>Biblioteca d’icones · FIC Modular</title>
+<style>
+:root{font-family:Arial,Helvetica,sans-serif;color:#203950;background:#f6f9fc;--blue:#244a73;--coral:#d86f57;--border:#d9e5ee}*{box-sizing:border-box}body{margin:0}a{color:var(--blue);text-underline-offset:3px}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--coral);outline-offset:2px}.skip{position:absolute;left:-9000px}.skip:focus{left:10px;top:10px;background:white;z-index:3}
+header{background:white;border-bottom:1px solid var(--border);padding:60px max(5%,calc((100% - 1180px)/2)) 50px;display:grid;grid-template-columns:1.5fr .8fr;gap:32px;align-items:center}.kicker{color:var(--coral);font-size:.8rem;font-weight:700;letter-spacing:.12em;margin-bottom:14px}h1{color:var(--blue);font-size:clamp(2rem,3.5vw,3.1rem);line-height:1.15;max-width:690px;margin:0 0 19px}header p{line-height:1.6;color:#59738d;max-width:660px}header .metrics{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.metrics span{border:1px solid var(--border);border-radius:100px;padding:9px 15px;background:#f9fbfd;font-size:.9rem}.metrics strong{color:var(--blue)}.preview{min-height:230px;border:1px solid var(--border);border-radius:25px;background:linear-gradient(145deg,#edf4fa,#fff);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;color:var(--blue);text-align:center}.samples{display:flex;gap:9px}.samples img{width:72px;height:72px}.preview small{color:#687f95}
+main{max-width:1220px;margin:auto;padding:48px 25px 90px}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:10px;margin-bottom:25px}h2{font-size:clamp(1.5rem,3vw,2.1rem);color:var(--blue);margin:0}#status{font-size:.9rem;color:#5c7285}.filters{display:flex;gap:14px;flex-wrap:wrap;align-items:end;background:white;border:1px solid var(--border);padding:19px;border-radius:17px}.field{display:flex;flex-direction:column;gap:7px;color:var(--blue);font-size:.84rem;font-weight:700}.field:first-child{flex:1;min-width:260px}.field input,.field select{font:normal 15px Arial,sans-serif;padding:12px 13px;min-height:44px;border:1px solid #c7d5e2;border-radius:9px;color:#284158;background:#fff}.field select{min-width:195px}fieldset{margin:0;border:0;display:flex;gap:12px;padding:0;align-items:center}legend{color:var(--blue);font-size:.84rem;font-weight:bold;padding-bottom:10px}fieldset label{font-size:.88rem;white-space:nowrap;cursor:pointer}input[type=radio]{accent-color:var(--blue)}.note{margin:19px 0 27px;color:#63798e;font-size:.9rem;line-height:1.5}.catalog{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px}.card{border:1px solid var(--border);background:#fff;border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:border-color .2s,box-shadow .2s}.card:hover{border-color:#b8cee0;box-shadow:0 8px 20px #234b7212}.art{background:#fafcfe;min-height:138px;display:grid;place-items:center}.art img{height:88px;width:88px;object-fit:contain}.body{padding:13px;display:flex;flex:1;flex-direction:column}.body h3{font-size:.92rem;color:var(--blue);margin:0 0 6px;overflow-wrap:anywhere}.tag{font-size:.73rem;color:#6c8295;margin:0 0 17px}.actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}.actions a,.actions button{font:600 .74rem Arial,sans-serif;text-decoration:none;background:#eff4f9;color:var(--blue);padding:7px 9px;border:1px solid #dce6ef;border-radius:8px;cursor:pointer}.actions a:hover,.actions button:hover{background:#dfeefa}.empty{padding:40px;text-align:center;color:#667f94}footer{background:white;border-top:1px solid var(--border);padding:30px max(5%,calc((100% - 1180px)/2));color:#657d93;font-size:.84rem;line-height:1.6}#toast{position:fixed;bottom:20px;right:20px;background:#244a73;color:#fff;padding:13px 19px;border-radius:10px;box-shadow:0 5px 20px #0003}
+@media(max-width:750px){header{grid-template-columns:1fr;padding:40px 25px}.preview{min-height:155px}.section-heading{align-items:start;flex-direction:column}.catalog{grid-template-columns:repeat(auto-fill,minmax(145px,1fr))}}
+</style>
+</head>
+<body>
+<a class="skip" href="#cataleg">Salta al catàleg</a>
+<header>
+ <div>
+   <div class="kicker">FIC MODULAR · BIBLIOTECA VISUAL</div>
+   <h1>Icones preparades per a les presentacions docents</h1>
+   <p>600 icones oficials de Tabler adaptades al mateix format circular. Trieu el color i descarregueu directament la versió que necessiteu.</p>
+   <div class="metrics"><span><strong>600</strong> icones</span><span><strong>2</strong> colors</span><span><strong>SVG + PNG</strong> preparats</span></div>
+ </div>
+ <div class="preview" aria-hidden="true"><strong>Un únic sistema visual</strong><div class="samples" id="samples"></div><small>Cercle i símbol en una sola imatge</small></div>
+</header>
+<main id="cataleg">
+ <div class="section-heading"><div><div class="kicker">CATÀLEG</div><h2>Trobeu la icona adequada</h2></div><div id="status" aria-live="polite">Carregant...</div></div>
+ <div class="filters">
+  <label class="field"><span>Cerqueu pel nom o pel tema</span><input type="search" id="search" placeholder="Ex.: escola, avaluació, imatge, comunicació..." autocomplete="off"></label>
+  <label class="field"><span>Àmbit</span><select id="category"><option value="">Tots els àmbits</option></select></label>
+  <fieldset><legend>Color</legend><label><input type="radio" name="color" value="blau" checked> Blau</label><label><input type="radio" name="color" value="coral"> Coral</label></fieldset>
+ </div>
+ <p class="note">PNG: 256 × 256 px, transparent fora del cercle. SVG: vectorial i editable. Inseriu la imatge completa a Google Slides, sense afegir-hi un altre cercle.</p>
+ <div id="cards" class="catalog"></div>
+ <p id="empty" class="empty" hidden>No s’han trobat icones. Proveu una cerca més general.</p>
+</main>
+<footer><p>Icones originals: <a href="https://github.com/tabler/tabler-icons">Tabler Icons</a>, Paweł Kuna i col·laboradors (MIT). Adaptació circular FIC Modular.</p><p><a href="https://github.com/miquelangelfuentes/f-tabler-icons">Repositori, codi i documentació</a></p></footer>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<script>
+'use strict';
+const $=s=>document.querySelector(s);
+const cards=$('#cards'),search=$('#search'),category=$('#category'),status=$('#status'),empty=$('#empty'),samples=$('#samples');
+let data=null,color='blau';
+const synonyms={
+aprenentatge:'escola classe docents alumnat formacio educacio lectura escriptura aprendre activitats',
+'ia-tecnologia':'intel·ligencia artificial tecnologia eines digitals programacio robot dades',
+multimedia:'imatge video audio musica so veu fotografia infografia visuals',
+comunicacio:'conversa missatge correu cooperacio equip claustre',
+avaluacio:'verificacio segur seguretat comprovacio proteccio privacitat retroaccio',
+organitzacio:'planificacio calendari fitxers documents materials centre',
+accions:'navegacio accions passos desar copiar descarregar',
+benestar:'inclusio accessibilitat benestar diversitat suport',
+altres:'recursos diversos'
+};
+const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const asset=(name,ext)=>'./assets/'+color+'/'+ext+'/'+name+'.'+ext;
+function toast(message){const t=$('#toast');t.textContent=message;t.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.hidden=true,2500);}
+function dl(label,name,ext){const a=document.createElement('a');a.textContent=label;a.href=asset(name,ext);a.download=name+'-'+color+'.'+ext;a.setAttribute('aria-label','Descarrega '+a.download);return a;}
+function tile(item){
+ const article=document.createElement('article');article.className='card';
+ const art=document.createElement('div');art.className='art';
+ const image=new Image();image.src=asset(item.name,'png');image.loading='lazy';image.alt='';image.width=88;image.height=88;art.append(image);
+ const body=document.createElement('div');body.className='body';
+ const h=document.createElement('h3');h.textContent=item.name;
+ const tag=document.createElement('div');tag.className='tag';tag.textContent=item.category_label;
+ const actions=document.createElement('div');actions.className='actions';
+ actions.append(dl('PNG',item.name,'png'),dl('SVG',item.name,'svg'));
+ const copy=document.createElement('button');copy.type='button';copy.textContent='Copia URL';
+ copy.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(new URL(asset(item.name,'png'),location.href).href);toast('Enllaç copiat.')}catch{toast('Obriu el PNG per copiar-ne l’adreça.')}});
+ actions.append(copy);body.append(h,tag,actions);article.append(art,body);return article;
+}
+function render(){
+ if(!data)return;
+ const term=normalize(search.value.trim()),cat=category.value;
+ const hits=data.icons.filter(i=>(!cat||cat===i.category)&&(!term||normalize(i.name+' '+i.name.replaceAll('-',' ')+' '+i.category_label+' '+(synonyms[i.category]||'')).includes(term)));
+ status.textContent=hits.length+' de '+data.total+' icones';empty.hidden=hits.length>0;
+ const f=document.createDocumentFragment();hits.forEach(i=>f.append(tile(i)));cards.replaceChildren(f);
+ const hero=document.createDocumentFragment();['book','brain','photo'].forEach(n=>{if(data.icons.some(i=>i.name===n)){const x=new Image();x.src=asset(n,'png');x.alt='';hero.append(x)}});samples.replaceChildren(hero);
+}
+async function init(){
+ try{const r=await fetch('./data/catalog.json',{cache:'no-cache'});if(!r.ok)throw Error('No hi ha catàleg');
+ data=await r.json();
+ data.categories.forEach(c=>{const x=document.createElement('option');x.value=c.id;x.textContent=c.label;category.append(x)});
+ render();
+ }catch(e){status.textContent='Catàleg pendent de generar';empty.hidden=false;empty.textContent='El catàleg es generarà automàticament amb la primera execució de GitHub Actions.';console.error(e);}
+}
+search.addEventListener('input',render);category.addEventListener('change',render);
+document.querySelectorAll('[name=color]').forEach(i=>i.addEventListener('change',event=>{color=event.currentTarget.value;render()}));
+init();
+</script>
+</body></html>

@@ -1,0 +1,13 @@
+{
+  "name": "f-tabler-icons",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Biblioteca de 600 icones Tabler per a FIC Modular",
+  "scripts": {
+    "build": "python scripts/build.py",
+    "validate": "python scripts/validate.py"
+  },
+  "dependencies": {
+    "@tabler/icons": "3.50.0"
+  }
+}

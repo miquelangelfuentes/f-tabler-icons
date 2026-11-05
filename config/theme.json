@@ -1,0 +1,29 @@
+{
+  "format": "FIC Modular · icona circular integrada",
+  "source": "Tabler Icons outline",
+  "tabler_version": "3.50.0",
+  "canvas_px": 256,
+  "outer_circle": {
+    "cx": 128,
+    "cy": 128,
+    "radius": 120
+  },
+  "glyph": {
+    "x": 48,
+    "y": 48,
+    "size": 160,
+    "stroke_width": 2
+  },
+  "palettes": {
+    "blau": {
+      "name": "Blau tinta",
+      "foreground": "#244A73",
+      "background": "#E8F0F6"
+    },
+    "coral": {
+      "name": "Coral",
+      "foreground": "#D86F57",
+      "background": "#FBE9E4"
+    }
+  }
+}
