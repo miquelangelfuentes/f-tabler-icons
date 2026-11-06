@@ -221,15 +221,55 @@ input[type=radio] { accent-color: var(--primary); cursor: pointer; }
   line-height: 1.5;
 }
 
+.category-nav-wrap {
+  position: relative;
+  margin: 18px 0 24px;
+  display: flex;
+  align-items: center;
+}
+.category-nav-wrap::before,
+.category-nav-wrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 52px;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+.category-nav-wrap::before {
+  left: 0;
+  background: linear-gradient(to right, var(--bg) 0%, transparent 100%);
+}
+.category-nav-wrap::after {
+  right: 0;
+  background: linear-gradient(to left, var(--bg) 0%, transparent 100%);
+}
+.category-nav-wrap.can-scroll-left::before { opacity: 1; }
+.category-nav-wrap.can-scroll-right::after { opacity: 1; }
+
 .category-nav {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
   overscroll-behavior-x: contain;
-  scrollbar-width: thin;
-  padding: 4px 2px 12px;
-  margin-top: 18px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE / Edge */
+  padding: 6px 14px;
   gap: 10px;
+  width: 100%;
+  cursor: grab;
+  user-select: none;
+}
+.category-nav::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+.category-nav:active {
+  cursor: grabbing;
 }
 .category-chip {
   flex-shrink: 0;
@@ -245,6 +285,7 @@ input[type=radio] { accent-color: var(--primary); cursor: pointer; }
   padding: 11px 15px;
   min-height: 44px;
   cursor: pointer;
+  white-space: nowrap;
   transition: background .15s, border-color .15s;
 }
 .category-chip:hover {
@@ -260,6 +301,47 @@ input[type=radio] { accent-color: var(--primary); cursor: pointer; }
   font-size: .8rem;
   opacity: .75;
   font-variant-numeric: tabular-nums;
+}
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: background .15s, border-color .15s, opacity .2s, transform .15s, box-shadow .15s;
+}
+.nav-arrow:hover:not(:disabled) {
+  background: var(--btn-hover);
+  border-color: var(--border-hover);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transform: translateY(-50%) scale(1.06);
+}
+.nav-arrow:active:not(:disabled) {
+  transform: translateY(-50%) scale(0.96);
+}
+.nav-arrow:disabled {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.nav-arrow-prev { left: -8px; }
+.nav-arrow-next { right: -8px; }
+
+@media (hover: none) and (pointer: coarse) {
+  .nav-arrow { display: none; }
+  .category-nav-wrap::before, .category-nav-wrap::after { display: none; }
+  .category-nav { padding-left: 0; padding-right: 0; }
 }
 
 .clear-filters {
@@ -590,11 +672,19 @@ footer {
   <fieldset><legend>Tema i color de les icones</legend><label><input type="radio" name="color" value="blau" checked> Blau</label><label><input type="radio" name="color" value="coral"> Coral</label></fieldset>
  </div>
  <p class="note">Exploreu les categories o cerqueu directament entre les 1.000 icones. El PNG té 256 × 256 píxels i transparència fora del cercle; l’SVG és escalable. Cada icona ja inclou el cercle.</p>
- <nav id="category-nav" class="category-nav" aria-label="Categories d’icones"></nav>
+ <div class="category-nav-wrap" id="category-nav-wrap">
+  <button id="nav-arrow-prev" class="nav-arrow nav-arrow-prev" type="button" aria-label="Desplaça les categories cap a l'esquerra" disabled>
+   <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+  </button>
+  <nav id="category-nav" class="category-nav" aria-label="Categories d’icones"></nav>
+  <button id="nav-arrow-next" class="nav-arrow nav-arrow-next" type="button" aria-label="Desplaça les categories cap a la dreta">
+   <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+  </button>
+ </div>
  <div id="browser" class="sections"></div>
  <p id="empty" class="empty" hidden>No s’han trobat icones. Proveu una cerca més general.</p>
 </main>
 <footer><p>Icones originals: <a href="https://github.com/tabler/tabler-icons">Tabler Icons</a>, Paweł Kuna i col·laboradors (MIT). Adaptació gràfica circular.</p><p><a href="https://github.com/miquelangelfuentes/f-tabler-icons">Repositori, codi i documentació</a></p></footer>
 <div id="toast" role="status" aria-live="polite" hidden></div>
-<script defer src="./catalog.js?v=4"></script>
+<script defer src="./catalog.js?v=5"></script>
 </body></html>
